@@ -10,7 +10,7 @@
 Muestra los **procesos activos** del usuario actual en un formato más detallado (sin procesos de otros usuarios).  
 🔍 Es útil para ver qué programas están ejecutándose en tu sesión.  
 
-📸 **Captura:** [Ver imagen](img/psau.png)
+📸 **Captura:** ![Ver imagen](img/psau.png)
 
 ---
 
