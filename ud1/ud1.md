@@ -4,6 +4,9 @@
 ![Bash Badge](https://img.shields.io/badge/Shell-Bash-blue?logo=gnu-bash)
 ![Monitoring Badge](https://img.shields.io/badge/Category-Monitoring-green)
 
+🧭 Introducción
+
+Estos comandos permiten ver y controlar los procesos activos en Linux, ayudando a conocer el uso de CPU, memoria y usuarios que los ejecutan. Son esenciales para monitorizar el sistema.
 ---
 
 ## 📋 1. `ps au`
