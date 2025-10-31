@@ -50,7 +50,7 @@ Muestra en **tiempo real** los procesos activos, el uso de CPU, memoria y carga 
 ---
 
 ## 🧾 5. `top -b -n 3 > top.info`
-Ejecuta `top` en **modo batch** (sin interfaz interactiva) y guarda **3 iteraciones** en el archivo `top.info`.  
+Ejecuta `top` en **modo batch** (sin interfaz interactiva) y guarda **3 iteraciones** en el archivo `top.info`  
 💾 Ideal para registrar la actividad del sistema y analizarla más tarde.  
 
 📸 **Captura:**   
@@ -70,7 +70,7 @@ Versión mejorada e interactiva de `top`, con una **interfaz más visual y color
 ---
 
 ## 🔝 7. `ps -eo user,pid,comm,%cpu --sort=-%cpu | head -n 6`
-Muestra los **6 procesos que más CPU consumen**, ordenados de mayor a menor.  
+Muestra los **5 procesos que más CPU consumen**, ordenados de mayor a menor.  
 🔥 Muy útil para detectar procesos que están sobrecargando el sistema.  
 
 📸 **Captura:** 
