@@ -20,7 +20,7 @@ Muestra los **procesos activos** del usuario actual en un formato más detallado
 ---
 
 ## 👥 2. `ps aux`
-Lista **todos los procesos del sistema**, incluyendo los de otros usuarios.  
+Lista **todos los procesos del sistema** incluyendo los de otros usuarios.  
 🧩 Ideal para administradores que necesitan una visión completa del sistema.  
 
 📸 **Captura:**  
