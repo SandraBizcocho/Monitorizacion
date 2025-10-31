@@ -13,7 +13,8 @@ Estos comandos permiten ver y controlar los procesos activos en Linux, ayudando 
 Muestra los **procesos activos** del usuario actual en un formato más detallado (sin procesos de otros usuarios).  
 🔍 Es útil para ver qué programas están ejecutándose en tu sesión.  
 
-📸 **Captura:**   
+📸 **Captura:**  
+
 ![Ver imagen](img/psau.png)
 
 ---
