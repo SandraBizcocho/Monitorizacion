@@ -23,7 +23,8 @@ Muestra los **procesos activos** del usuario actual en un formato más detallado
 Lista **todos los procesos del sistema**, incluyendo los de otros usuarios.  
 🧩 Ideal para administradores que necesitan una visión completa del sistema.  
 
-📸 **Captura:**   
+📸 **Captura:**  
+
 ![Ver imagen](img/psaux.png)
 
 ---
@@ -32,7 +33,8 @@ Lista **todos los procesos del sistema**, incluyendo los de otros usuarios.
 Muestra solo los procesos que pertenecen al usuario **alumno**.  
 🎯 Muy útil para filtrar procesos por usuario específico.  
 
-📸 **Captura:**   
+📸 **Captura:**  
+
 ![Ver imagen](img/ps-u.png)
 
 ---
@@ -42,6 +44,7 @@ Muestra en **tiempo real** los procesos activos, el uso de CPU, memoria y carga 
 📊 Es una de las herramientas más comunes para **monitorizar el rendimiento**.  
 
 📸 **Captura:**   
+
 ![Ver imagen](img/top.png)
 
 ---
@@ -51,6 +54,7 @@ Ejecuta `top` en **modo batch** (sin interfaz interactiva) y guarda **3 iteracio
 💾 Ideal para registrar la actividad del sistema y analizarla más tarde.  
 
 📸 **Captura:**   
+
 ![Ver imagen](img/top-b.png)
 
 ---
@@ -59,7 +63,8 @@ Ejecuta `top` en **modo batch** (sin interfaz interactiva) y guarda **3 iteracio
 Versión mejorada e interactiva de `top`, con una **interfaz más visual y colorida**.  
 🎨 Permite navegar, ordenar y finalizar procesos fácilmente con el teclado.  
 
-📸 **Captura:**   
+📸 **Captura:**  
+
 ![Ver imagen](img/htop.png)
 
 ---
@@ -68,5 +73,6 @@ Versión mejorada e interactiva de `top`, con una **interfaz más visual y color
 Muestra los **6 procesos que más CPU consumen**, ordenados de mayor a menor.  
 🔥 Muy útil para detectar procesos que están sobrecargando el sistema.  
 
-📸 **Captura:**   
+📸 **Captura:** 
+
 ![Ver imagen](img/ps-eo.png)
