@@ -17,7 +17,7 @@ Estos comandos permiten conocer el uso de recursos del sistema como CPU, memoria
 Muestra información detallada sobre procesos, uso de CPU, memoria, disco, red y más en tiempo real.
 🔍 Es una herramienta avanzada de monitorización, similar a top pero con datos más completos y registro histórico.
 
-📸 Captura:
+📸 Captura:  
 ![Ver imagen](img/atop1.png)
 
 ---
@@ -27,7 +27,7 @@ Muestra información detallada sobre procesos, uso de CPU, memoria, disco, red y
 Muestra el espacio en disco disponible y usado en cada sistema de archivos montado.
 🔍 Es ideal para comprobar cuánto espacio queda en las particiones o unidades montadas.
 
-📸 Captura:
+📸 Captura:  
 ![Ver imagen](img/df.png)
 
 ---
@@ -37,7 +37,7 @@ Muestra el espacio en disco disponible y usado en cada sistema de archivos monta
 Informa sobre el uso de espacio en disco por archivos y directorios.
 🔍 Se usa frecuentemente con opciones como -h para mostrar tamaños en formato legible (KB, MB, GB).
 
-📸 Captura:
+📸 Captura:  
 ![Ver imagen](img/du.png)
 
 ---
@@ -47,7 +47,7 @@ Informa sobre el uso de espacio en disco por archivos y directorios.
 Muestra la memoria RAM y swap disponible y utilizada del sistema.
 🔍 Ayuda a analizar el consumo de memoria y detectar si el sistema necesita más recursos.
 
-📸 Captura:
+📸 Captura:  
 ![Ver imagen](img/free.png)
 
 ---
@@ -57,5 +57,5 @@ Muestra la memoria RAM y swap disponible y utilizada del sistema.
 Permite ver estadísticas de entrada/salida de dispositivos, CPU y almacenamiento.
 🔍 Es muy útil para detectar cuellos de botella en discos o rendimiento de CPU.
 
-📸 Captura:
+📸 Captura:  
 ![Ver imagen](img/iostat.png)
