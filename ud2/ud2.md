@@ -18,6 +18,7 @@ Muestra información detallada sobre procesos, uso de CPU, memoria, disco, red y
 🔍 Es una herramienta avanzada de monitorización, similar a top pero con datos más completos y registro histórico.
 
 📸 Captura:  
+
 ![Ver imagen](img/atop1.png)
 
 ---
@@ -28,6 +29,7 @@ Muestra el espacio en disco disponible y usado en cada sistema de archivos monta
 🔍 Es ideal para comprobar cuánto espacio queda en las particiones o unidades montadas.
 
 📸 Captura:  
+
 ![Ver imagen](img/df.png)
 
 ---
@@ -38,6 +40,7 @@ Informa sobre el uso de espacio en disco por archivos y directorios.
 🔍 Se usa frecuentemente con opciones como -h para mostrar tamaños en formato legible (KB, MB, GB).
 
 📸 Captura:  
+
 ![Ver imagen](img/du.png)
 
 ---
@@ -48,6 +51,7 @@ Muestra la memoria RAM y swap disponible y utilizada del sistema.
 🔍 Ayuda a analizar el consumo de memoria y detectar si el sistema necesita más recursos.
 
 📸 Captura:  
+
 ![Ver imagen](img/free.png)
 
 ---
@@ -58,4 +62,5 @@ Permite ver estadísticas de entrada/salida de dispositivos, CPU y almacenamient
 🔍 Es muy útil para detectar cuellos de botella en discos o rendimiento de CPU.
 
 📸 Captura:  
+
 ![Ver imagen](img/iostat.png)
