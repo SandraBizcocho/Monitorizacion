@@ -11,7 +11,7 @@
 
 # 📋 1. `bmon`
 
-Muestra el uso de **ancho de banda** en tiempo real por cada interfaz de red.
+Muestra el uso de **ancho de banda** en tiempo real por cada interfaz de red.  
 🔍 Es muy visual y útil para detectar rápidamente picos de tráfico o interfaces con mayor carga.
 
 📸 Capturas:
@@ -22,7 +22,7 @@ Muestra el uso de **ancho de banda** en tiempo real por cada interfaz de red.
 
 # 📋 2. `iptraf`
 
-Herramienta interactiva en modo texto para **monitorizar conexiones, tráfico por protocolo y estadísticas de red.**
+Herramienta interactiva en modo texto para **monitorizar conexiones, tráfico por protocolo y estadísticas de red.**  
 🔍 Permite observar la actividad en tiempo real de interfaces y puertos, mostrando bytes, paquetes y dirección origen/destino.
 
 📸 Capturas:
@@ -33,8 +33,8 @@ Herramienta interactiva en modo texto para **monitorizar conexiones, tráfico po
 
 # 📋 3. `tcpdump`
 
-Analiza y captura **paquetes** que circulan por la red.
-🔍 Es ideal para diagnosticar problemas de red, verificar tráfico sospechoso o analizar protocolos.
+Analiza y captura **paquetes** que circulan por la red.  
+🔍 Es ideal para diagnosticar problemas de red, verificar tráfico sospechoso o analizar protocolos.  
 Se usa con permisos de superusuario y admite filtros potentes (por IP, puerto, protocolo, etc.).
 
 📸 Captura:
@@ -45,8 +45,8 @@ Se usa con permisos de superusuario y admite filtros potentes (por IP, puerto, p
 
 # 📋 4. `tcptrack`
 
-Muestra las **conexiones TCP activas** en tiempo real junto con su velocidad de transferencia.
-🔍 Es muy útil para observar qué IPs están conectadas y cuántos datos están enviando o recibiendo.
+Muestra las **conexiones TCP activas** en tiempo real junto con su velocidad de transferencia.  
+🔍 Es muy útil para observar qué IPs están conectadas y cuántos datos están enviando o recibiendo.  
 
 📸 Capturas:
 
