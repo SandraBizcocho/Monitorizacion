@@ -14,7 +14,7 @@
 Muestra el uso de **ancho de banda** en tiempo real por cada interfaz de red.  
 🔍 Es muy visual y útil para detectar rápidamente picos de tráfico o interfaces con mayor carga.
 
-📸 Capturas:
+📸 Captura:
 
 ![Ver imagen](img/bmon1.png)
 
@@ -25,7 +25,7 @@ Muestra el uso de **ancho de banda** en tiempo real por cada interfaz de red.
 Herramienta interactiva en modo texto para **monitorizar conexiones, tráfico por protocolo y estadísticas de red.**  
 🔍 Permite observar la actividad en tiempo real de interfaces y puertos, mostrando bytes, paquetes y dirección origen/destino.
 
-📸 Capturas:
+📸 Captura:
 
 ![Ver imagen](img/iptraf1.png)
 
@@ -39,7 +39,7 @@ Se usa con permisos de superusuario y admite filtros potentes (por IP, puerto, p
 
 📸 Captura:
 
-![Ver imagen](img/tcdump.png)
+![Ver imagen](img/tcpdump.png)
 
 ---
 
@@ -48,6 +48,6 @@ Se usa con permisos de superusuario y admite filtros potentes (por IP, puerto, p
 Muestra las **conexiones TCP activas** en tiempo real junto con su velocidad de transferencia.  
 🔍 Es muy útil para observar qué IPs están conectadas y cuántos datos están enviando o recibiendo.  
 
-📸 Capturas:
+📸 Captura:
 
 ![Ver imagen](img/tcptrack1.png)
