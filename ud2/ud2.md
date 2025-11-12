@@ -7,7 +7,7 @@
 
 🧭 Introducción
 
-**Estos comandos permiten conocer el uso de recursos del sistema como CPU, memoria, disco y rendimiento general. Son muy útiles para la administración y diagnóstico del sistema Linux.**
+**Estos comandos permiten analizar y monitorizar el tráfico de red en tiempo real, detectar cuellos de botella y observar la actividad de las interfaces de red. Son muy útiles para la administración y diagnóstico del sistema Linux. 🐧**
 
 ## 📋 1. `atop`
 Muestra **información detallada** sobre procesos, uso de CPU, memoria, disco, red y más en tiempo real.
