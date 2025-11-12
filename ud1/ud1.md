@@ -78,7 +78,7 @@ Ejecuta `top` en **modo batch** (sin interfaz interactiva) y guarda **3 iteracio
 🔍 Opciones:  
 -b → “Batch mode”: produce salida estándar, ideal para guardar en archivos o scripts.  
 -n 3 → Indica que tome 3 actualizaciones y luego termine.  
- > → Redirige la salida al archivo top.info.
+> Redirige la salida al archivo top.info.
 
 💡 Perfecto para registrar el rendimiento del sistema y analizarlo más tarde con cat o less.
 
