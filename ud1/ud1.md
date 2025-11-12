@@ -13,8 +13,8 @@ Estos comandos permiten ver y controlar los procesos activos en Linux, ayudando 
 ## 📋 1. `ps au`
 Muestra los **procesos activos** del usuario actual en un formato más detallado (sin procesos de otros usuarios).  
 
-🔍 Opciones:
-a → Muestra los procesos de todos los usuarios que tienen una terminal activa.
+🔍 Opciones:  
+a → Muestra los procesos de todos los usuarios que tienen una terminal activa.  
 u → Usa un formato “user-oriented”, mostrando columnas como USER, PID, %CPU, %MEM, TTY, TIME y COMMAND.
 
 💡 Es ideal para ver qué programas tienes en ejecución en tu sesión actual.
@@ -28,9 +28,9 @@ u → Usa un formato “user-oriented”, mostrando columnas como USER, PID, %CP
 ## 👥 2. `ps aux`
 Lista **todos los procesos del sistema** incluyendo los de otros usuarios y los que no están asociados a una terminal (daemon o servicio).   
 
-🔍 Opciones:
-a → Procesos de todos los usuarios.
-u → Muestra los procesos con formato detallado.
+🔍 Opciones:  
+a → Procesos de todos los usuarios.  
+u → Muestra los procesos con formato detallado.  
 x → Incluye procesos sin terminal asociada.
 
 💡 Ideal para administradores que necesitan una visión completa del sistema.
@@ -58,10 +58,10 @@ Muestra solo los procesos que pertenecen al usuario **alumno** 👤.
 ## ⚡ 4. `top`
 Muestra en **tiempo real** los procesos activos, el uso de CPU, memoria, carga del sistema y el tiempo que lleva encendido el equipo.  
 
-📊 Características principales:
-Se actualiza automáticamente cada pocos segundos.
-Ordena los procesos por consumo de CPU o memoria.
-Permite finalizar procesos desde la propia interfaz (tecla k).
+📊 Características principales:  
+Se actualiza automáticamente cada pocos segundos.  
+Ordena los procesos por consumo de CPU o memoria.  
+Permite finalizar procesos desde la propia interfaz (tecla k).  
 Muestra estadísticas del sistema en la parte superior (load average, uptime, etc.).
 
 💡 Es una de las herramientas más comunes para **monitorizar el rendimiento**.
@@ -75,9 +75,9 @@ Muestra estadísticas del sistema en la parte superior (load average, uptime, et
 ## 🧾 5. `top -b -n 3 > top.info`
 Ejecuta `top` en **modo batch** (sin interfaz interactiva) y guarda **3 iteraciones** en el archivo `top.info`  
 
-🔍 Opciones:
--b → “Batch mode”: produce salida estándar, ideal para guardar en archivos o scripts.
--n 3 → Indica que tome 3 actualizaciones y luego termine.
+🔍 Opciones:  
+-b → “Batch mode”: produce salida estándar, ideal para guardar en archivos o scripts.  
+-n 3 → Indica que tome 3 actualizaciones y luego termine.  
 > → Redirige la salida al archivo top.info.
 
 💡 Perfecto para registrar el rendimiento del sistema y analizarlo más tarde con cat o less.
@@ -91,11 +91,11 @@ Ejecuta `top` en **modo batch** (sin interfaz interactiva) y guarda **3 iteracio
 ## 🖥️ 6. `htop`
 Versión mejorada e interactiva de `top`, con una **interfaz gráfica en terminal más visual, colorida y fácil de usar** 🎨.  
 
-✨ Ventajas sobre top:
-Muestra barras de colores para CPU, RAM y swap.
-Permite desplazarse con el teclado por la lista de procesos.
-Facilita matar procesos (F9) o cambiar su prioridad (F7/F8).
-Agrupa procesos en forma de árbol jerárquico.
+✨ Ventajas sobre top:  
+Muestra barras de colores para CPU, RAM y swap.  
+Permite desplazarse con el teclado por la lista de procesos.  
+Facilita matar procesos (F9) o cambiar su prioridad (F7/F8).  
+Agrupa procesos en forma de árbol jerárquico.  
 
 💡 Permite navegar, ordenar y finalizar procesos fácilmente con el teclado.
 
@@ -108,10 +108,10 @@ Agrupa procesos en forma de árbol jerárquico.
 ## 🔝 7. `ps -eo user,pid,comm,%cpu --sort=-%cpu | head -n 6`
 Muestra los **5 procesos que más CPU consumen**, ordenados de mayor a menor 🔥.  
 
-🔍 Opciones:
--e → Muestra todos los procesos del sistema.
--o → Permite definir qué columnas mostrar (user, pid, comm, %cpu).
---sort=-%cpu → Ordena la salida por uso de CPU (el signo “-” indica orden descendente).
+🔍 Opciones:  
+-e → Muestra todos los procesos del sistema.  
+-o → Permite definir qué columnas mostrar (user, pid, comm, %cpu).  
+--sort=-%cpu → Ordena la salida por uso de CPU (el signo “-” indica orden descendente).  
 | head -n 6 → Muestra solo las primeras 6 líneas (una de cabecera + 5 procesos).
 
 💡 Ideal para detectar procesos que saturan la CPU y sobrecargan el sistema.
