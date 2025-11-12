@@ -121,4 +121,4 @@ Muestra los **5 procesos que mÃ¡s CPU consumen**, ordenados de mayor a menor ðŸ”
 ![Ver imagen](img/ps-eo.png)
 
 
-[Unidad 2. Memoria, espacio y rendimiento del disco](ud2/ud2.md)
+[Unidad 2. Memoria, espacio y rendimiento del disco](ud2.md)
