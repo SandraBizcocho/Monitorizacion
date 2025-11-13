@@ -7,12 +7,19 @@
 
 🧭 Introducción
 
-**Estos comandos permiten monitorizar el tráfico de red, ver la actividad de las interfaces, analizar paquetes y diagnosticar problemas de conectividad. Son herramientas fundamentales para administradores de sistemas y técnicos de redes.**
+**Estos comandos permiten analizar y monitorizar el tráfico de red en tiempo real, ver la actividad de las interfaces, analizar paquetes, detectar cuellos de botella y diagnosticar problemas de conectividad. Son herramientas esenciales para diagnosticar problemas de conectividad, comprobar velocidades de transferencia y vigilar conexiones activas en Linux 🐧**
 
 # 📋 1. `bmon`
 
 Muestra el uso de **ancho de banda** en tiempo real por cada interfaz de red.  
-🔍 Es muy visual y útil para detectar rápidamente picos de tráfico o interfaces con mayor carga.
+
+🔍 Opciones principales:
+q: salir del programa.
+d: cambiar de vista (por ejemplo, resumen o estadísticas detalladas).
+c: ver los gráficos de tráfico por interfaz.
+
+💡 Uso práctico:
+Ideal para detectar picos de tráfico, comprobar si una interfaz está transmitiendo datos o cuánto ancho de banda consume cada conexión.
 
 📸 Captura:
 
@@ -22,9 +29,26 @@ Muestra el uso de **ancho de banda** en tiempo real por cada interfaz de red.
 
 # 📋 2. `iptraf`
 
-Herramienta interactiva en modo texto para **monitorizar conexiones, tráfico por protocolo y estadísticas de red.**  
+Herramienta interactiva en modo texto para **monitorizar conexiones, tráfico por interfaz y estadísticas de red.**  
 🔍 Permite observar la actividad en tiempo real de interfaces y puertos, mostrando bytes, paquetes y dirección origen/destino.
 
+🧩 Características destacadas:
+Permite ver tráfico TCP, UDP, ICMP y otros protocolos.
+Muestra IPs origen y destino, puertos, número de paquetes y bytes transmitidos.
+Se actualiza en tiempo real.
+
+🔧 Opciones al iniciar:
+
+sudo iptraf → Abre el menú principal.
+
+Dentro de la interfaz puedes elegir:
+
+“IP traffic monitor”: para ver conexiones por interfaz.
+
+“Detailed interface statistics”: para ver tráfico por protocolo.
+
+📊 Uso práctico:
+Perfecto para analizar qué equipos o servicios generan más tráfico en tu red local.
 📸 Captura:
 
 ![Ver imagen](img/iptraf1.png)
