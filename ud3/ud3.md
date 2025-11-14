@@ -1,5 +1,5 @@
 🧠 Comandos de Monitorización de Tráfico de Red en Linux
-# Tráfico de la red.
+# 🌐 Tráfico de la red.
 
 ![Linux Badge](https://img.shields.io/badge/Linux-Terminal-black?logo=linux&logoColor=white)
 ![Bash Badge](https://img.shields.io/badge/Shell-Bash-blue?logo=gnu-bash)
