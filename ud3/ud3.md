@@ -3,7 +3,6 @@
 
 ![Linux](https://img.shields.io/badge/Linux-Network-black?logo=linux)
 ![Topic](https://img.shields.io/badge/Tema-Redes%20y%20Puertos-blueviolet)
-![Tools](https://img.shields.io/badge/Herramientas-ss%2Fip%2Fwhois-red)
 
 🧭 Introducción
 
