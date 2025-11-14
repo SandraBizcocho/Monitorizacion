@@ -11,6 +11,8 @@ Estos comandos permiten ver y controlar los procesos activos en Linux, ayudando 
 
 Comandos:
 [ps au](##1-ps-au)
+[ps aux](##2-ps-aux)
+
 ---
 
 ## 📋 1. `ps au`
