@@ -9,4 +9,4 @@
 ## 2. DigitalOcean: How to Monitor Processes on Linux
 
 * Guía práctica para ver y controlar procesos, incluyendo ps, top y htop.
-* [Enlace](https://www.digitalocean.com/community/tutorials/how-to-monitor-processes-on-linux)
+* [Enlace](https://www.digitalocean.com/community/tutorials/process-management-in-linux)
