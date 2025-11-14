@@ -3,6 +3,8 @@
 ![Linux Badge](https://img.shields.io/badge/Linux-Terminal-black?logo=linux&logoColor=white)
 ![Bash Badge](https://img.shields.io/badge/Shell-Bash-blue?logo=gnu-bash)
 ![Monitoring Badge](https://img.shields.io/badge/Category-Monitoring-green)
+
+
 ![Ver imagen](/ud1/img/monitorizacion.jpg)
 
 ## 🔗 [Unidad 1. Procesos](ud1/ud1.md)
