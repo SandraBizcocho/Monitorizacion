@@ -19,7 +19,7 @@
 
 🔗 [ss -ntnp](#-4-ss--ntnp)
 
-🔗 [ss -plunt](#-5-ss-plunt)
+🔗 [ss -plunt](#-5-ss--plunt)
 
 ---
 
