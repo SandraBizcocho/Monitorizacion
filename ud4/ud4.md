@@ -21,7 +21,7 @@
 
 🔗 [ss -plunt](#-5-ss--plunt)
 
-🔗 [whois](#6-whois)
+🔗 [whois](#-6-whois)
 
 ---
 
