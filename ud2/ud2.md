@@ -54,6 +54,7 @@ du -hs /home/* → Muestra el tamaño de cada subcarpeta dentro de /home.
 ✔ Ideal para saber qué usuario o carpeta está ocupando más espacio.
 
 💡 Ideal para localizar carpetas grandes y liberar espacio rápidamente.
+
 📸 Captura:  
 
 ![Ver imagen](img/du.png)
