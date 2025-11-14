@@ -64,7 +64,7 @@ du -hs /home/* → Muestra el tamaño de cada subcarpeta dentro de /home.
 ## 📋 4. `free`
 Muestra la memoria RAM y swap disponible y utilizada del sistema.  Ayuda a analizar el consumo de memoria y detectar si el sistema necesita más recursos.
 
-🔍 Opciones:
+🔍 Opciones:  
 -h → “Human readable”, muestra los valores en MB y GB, mucho más fácil de leer. 💡 Es la opción más usada en administración de sistemas.  
 -s 3 → "s" de seconds (segundos). 💡 Ideal para monitorear cómo cambia la RAM durante una instalación, copia de archivos, ejecución de programas, etc.  
 -c 3 → “count”, número de actualizaciones. 💡 Perfecto para obtener una pequeña muestra automática sin usar un bucle.
