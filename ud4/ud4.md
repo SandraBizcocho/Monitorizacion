@@ -9,6 +9,20 @@
 
 **Estos comandos permiten ver los puertos y conexiones activas, así como identificar equipos conectados en la red mediante tablas ARP o escaneos de puertos. Son muy útiles para la administración, auditoría y diagnóstico de redes.**
 
+## Lista de comandos:
+
+🔗 [arp -a](#-1-arp-a)
+
+🔗 [arp -n](#-2-arp-n)
+
+🔗 [nmap](#3-nmap)
+
+🔗 [ss -ntnp](#-4-ss-ntnp)
+
+🔗 [ss -plunt](#-5-ss-plunt)
+
+---
+
 ## 📋 1. `arp -a`
 
 Muestra la **tabla ARP del sistema**, indicando las direcciones IP y MAC de los equipos conectados la interfaz por la que se ha detectado y el nombre del host (si es resolvible).    
@@ -23,6 +37,8 @@ Muestra la **tabla ARP del sistema**, indicando las direcciones IP y MAC de los 
 📸 Captura:
 
 ![Ver imagen](img/arp-a.png)
+
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ---
 
@@ -40,6 +56,8 @@ Muestra la misma tabla ARP, pero **sin resolver los nombres de host**, es decir,
 📸 Captura:
 
 ![Ver imagen](img/arp-n.png)
+
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ---
 
@@ -59,6 +77,8 @@ ip → Dirección del objetivo (equipo, servidor o rango).
 
 ![Ver imagen](img/nmap.png)
 
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
+
 ---
 
 # 📋 4. `ss -ntnp`
@@ -75,6 +95,8 @@ Muestra las conexiones TCP en escucha (LISTEN) con sus puertos, PID y procesos a
 📸 Captura:
 
 ![Ver imagen](img/ss-ntnp.png)
+
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ---
 
@@ -94,3 +116,4 @@ Muestra todas las conexiones TCP y UDP, tanto en escucha como activas.
 
 ![Ver imagen](img/ss-plunt.png)
 
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
