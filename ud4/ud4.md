@@ -13,7 +13,7 @@
 
 🔗 [arp -a](#-1-arp--a)
 
-🔗 [arp -n](#-2-arp-n)
+🔗 [arp -n](#-2-arp--n)
 
 🔗 [nmap](#3-nmap)
 
