@@ -11,19 +11,19 @@ Estos comandos permiten ver y controlar los procesos activos en Linux, ayudando 
 
 # Comandos:
 
-🔗 [ps au](##-1-ps-au)
+🔗 [ps au](#-1-ps-au)
 
-🔗 [ps aux](##-2-ps-aux)
+🔗 [ps aux](#-2-ps-aux)
 
-🔗 [ps -u](##‍-3-ps--u-alumno)
+🔗 [ps -u](#3-ps--u-alumno)
 
-🔗 [top](##-4-top)
+🔗 [top](#-4-top)
 
-🔗 [top -b -n 3](##-5-top--b--n-3--topinfo)
+🔗 [top -b -n 3](#-5-top--b--n-3--topinfo)
 
-🔗 [htop](##%EF%B8%8F-6-htop)
+🔗 [htop](#%EF%B8%8F-6-htop)
 
-🔗 [ps -eo user](##-7-ps--eo-userpidcommcpu---sort-cpu--head--n-6)
+🔗 [ps -eo user](#-7-ps--eo-userpidcommcpu---sort-cpu--head--n-6)
 
 ---
 
