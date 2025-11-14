@@ -53,7 +53,7 @@ Escanea los puertos abiertos de un equipo o red.
 🔍 Opciones:  
 --top-ports 100 → Escanea los 100 puertos más usados según estadísticas de Nmap.  
 sV → Activa la detección de versiones. 🔸 Identifica qué servicio corre en cada puerto (ej. Apache 2.4, OpenSSH 8.x…).  
-<ip> → Dirección del objetivo (equipo, servidor o rango).
+ip → Dirección del objetivo (equipo, servidor o rango).
 
 📸 Captura:
 
