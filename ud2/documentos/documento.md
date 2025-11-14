@@ -4,7 +4,7 @@
 
 * `man free`, `man df`, `man du`, `man iostat`  
 * Consultar las páginas de manual para todas las opciones y ejemplos.  
-* [Enlace](https://man7.org/linux/man-pages/man1)
+* [Enlace](https://man7.org/linux/man-pages/man1/free.1.html)
 
 ## 2. Red Hat Performance Tuning Guide – Chapter 2
 
