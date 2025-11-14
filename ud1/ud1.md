@@ -9,7 +9,7 @@
 
 Estos comandos permiten ver y controlar los procesos activos en Linux, ayudando a conocer el uso de CPU, memoria y usuarios que los ejecutan. Son esenciales para monitorizar el sistema.
 
-Comandos:
+Comandos:  
 [ps au](#1-psau)  
 [ps aux](#2-ps-aux)  
 [ps -u](#3-ps--u-alumno)  
