@@ -17,7 +17,7 @@
 
 🔗 [nmap](#-3-nmap)
 
-🔗 [ss -ntnp](#-4-ss-ntnp)
+🔗 [ss -ntnp](#-4-ss--ntnp)
 
 🔗 [ss -plunt](#-5-ss-plunt)
 
