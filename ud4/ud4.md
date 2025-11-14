@@ -1,5 +1,5 @@
 🧠 Comandos de Monitorización de Puertos en Linux
-# Conexiones, puertos abiertos y resolución ARP
+# 📡 Conexiones, puertos abiertos y resolución ARP
 
 ![Linux Badge](https://img.shields.io/badge/Linux-Terminal-black?logo=linux&logoColor=white)
 ![Bash Badge](https://img.shields.io/badge/Shell-Bash-blue?logo=gnu-bash)
