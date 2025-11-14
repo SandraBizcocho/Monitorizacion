@@ -17,7 +17,7 @@ Muestra la **tabla ARP del sistema**, indicando las direcciones IP y MAC de los 
 * Comprobar si un dispositivo responde.    
 * Detectar equipos desconocidos o posibles intrusos.  
 
-🔍 Opciones:
+🔍 Opciones:  
 -a → intenta resolver nombres de host mediante DNS (puede tardar más).
 
 📸 Captura:
