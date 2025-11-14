@@ -44,8 +44,8 @@ df -hT → Igual que -h pero además muestra el tipo de sistema de archivos (ext
 Informa sobre el uso de espacio en disco por archivos y directorios.  
 🔍 Opciones más frecuentes:
 
-du -hs → Muestra el tamaño TOTAL de la carpeta donde estás.
--h → Muestra los tamaños en formato legible (KB, MB, GB).
+du -hs → Muestra el tamaño TOTAL de la carpeta donde estás.  
+-h → Muestra los tamaños en formato legible (KB, MB, GB).  
 -s → Resume, muestra solo el total del directorio actual, sin listar subdirectorios. 
 
 du -hs /home → Muestra solo el tamaño total de la carpeta /home.
