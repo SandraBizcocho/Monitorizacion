@@ -23,7 +23,7 @@ Estos comandos permiten ver y controlar los procesos activos en Linux, ayudando 
 
 🔗 [htop](#%EF%B8%8F-6-htop)
 
-🔗 [ps -eo user](#7-ps--eo-userpidcommcpu--sort-cpu--head--n-6)
+🔗 [ps -eo user](#-7-ps--eo-userpidcommcpu---sort-cpu--head--n-6)
 
 ---
 
