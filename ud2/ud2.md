@@ -9,6 +9,20 @@
 
 **Estos comandos permiten analizar y monitorizar el tráfico de red en tiempo real, detectar cuellos de botella y observar la actividad de las interfaces de red. Son muy útiles para la administración y diagnóstico del sistema Linux. 🐧**
 
+## Lista de comandos:
+
+🔗 [atop](#-1-atop)
+
+🔗 [df](#-2-df)
+
+🔗 [du](#3-du)
+
+🔗 [free](#-4-free)
+
+🔗 [iostat](#-5-iostat)
+
+---
+
 ## 📋 1. `atop`
 
 Muestra **información detallada** sobre procesos, uso de CPU, memoria, disco, red y más en tiempo real.  
@@ -19,6 +33,8 @@ Muestra **información detallada** sobre procesos, uso de CPU, memoria, disco, r
 📸 Captura:  
 
 ![Ver imagen](img/atop1.png)
+
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ---
 
@@ -37,6 +53,8 @@ df -hT → Igual que -h pero además muestra el tipo de sistema de archivos (ext
 📸 Captura:  
 
 ![Ver imagen](img/df.png)
+
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ---
 
@@ -59,6 +77,8 @@ du -hs /home/* → Muestra el tamaño de cada subcarpeta dentro de /home.
 
 ![Ver imagen](img/du.png)
 
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
+
 ---
 
 ## 📋 4. `free`
@@ -72,6 +92,8 @@ Muestra la memoria RAM y swap disponible y utilizada del sistema.  Ayuda a anali
 📸 Captura:  
 
 ![Ver imagen](img/free.png)
+
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ---
 
@@ -87,6 +109,8 @@ Permite ver estadísticas de:
 📸 Captura:  
 
 ![Ver imagen](img/iostat.png)
+
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ## 🔗 [Documentación](documentos/documento.md)
 ## 🔗 [Unidad 3. Tráfico de la red](../ud3/ud3.md)
