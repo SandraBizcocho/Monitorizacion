@@ -11,8 +11,14 @@
 
 ## 📋 1. `arp -a`
 
-Muestra la **tabla ARP del sistema**, indicando las direcciones IP y MAC de los equipos conectados.  
-🔍 Es útil para saber qué dispositivos están en la misma red local y si hay comunicación activa.
+Muestra la **tabla ARP del sistema**, indicando las direcciones IP y MAC de los equipos conectados la interfaz por la que se ha detectado y el nombre del host (si es resolvible).    
+🔍 Es útil para saber:
+* Qué dispositivos están conectados a tu red local 🖥️📱.  
+* Comprobar si un dispositivo responde.    
+* Detectar equipos desconocidos o posibles intrusos.  
+
+🔍 Opciones:
+-a → intenta resolver nombres de host mediante DNS (puede tardar más).
 
 📸 Captura:
 
@@ -22,9 +28,15 @@ Muestra la **tabla ARP del sistema**, indicando las direcciones IP y MAC de los 
 
 ## 📋 2. `arp -n`
 
-Muestra la tabla ARP sin resolver los nombres de host, es decir, mostrando directamente las IPs y direcciones MAC.  
-🔍 Es más rápido que arp -a y se usa cuando no se desea realizar consultas DNS.
+Muestra la misma tabla ARP, pero **sin resolver los nombres de host**, es decir, mostrando directamente las IPs y direcciones MAC.  
 
+🔍 Ventajas:
+-n →   
+* Más rápido ⚡  
+* No usa DNS  
+* Evita retrasos si el host no tiene nombre asociado  
+* Preferido para scripts y auditorías
+  
 📸 Captura:
 
 ![Ver imagen](img/arp-n.png)
@@ -38,6 +50,11 @@ Escanea los puertos abiertos de un equipo o red.
 *Ejemplo:*
 `sudo nmap -sS 192.168.1.0/24`
 
+🔍 Opciones:  
+--top-ports 100 → Escanea los 100 puertos más usados según estadísticas de Nmap.  
+sV → Activa la detección de versiones. 🔸 Identifica qué servicio corre en cada puerto (ej. Apache 2.4, OpenSSH 8.x…).  
+<ip> → Dirección del objetivo (equipo, servidor o rango).
+
 📸 Captura:
 
 ![Ver imagen](img/nmap.png)
@@ -47,7 +64,13 @@ Escanea los puertos abiertos de un equipo o red.
 # 📋 4. `ss -ntnp`
 
 Muestra las conexiones TCP en escucha (LISTEN) con sus puertos, PID y procesos asociados.  
-🔍 Es el reemplazo moderno de netstat, más rápido y preciso.
+⚡ Es el reemplazo moderno de netstat, más rápido y preciso.
+
+🔍 Opciones:  
+-n → Muestra direcciones y puertos sin resolver nombres.  
+-t → Filtra para mostrar únicamente conexiones TCP.  
+-n (segunda vez) → Repetir esta opción no afecta, simplemente reafirma el modo “no-resolver”.  
+-p → Muestra el PID y el nombre del proceso que usa cada socket.
 
 📸 Captura:
 
@@ -59,6 +82,13 @@ Muestra las conexiones TCP en escucha (LISTEN) con sus puertos, PID y procesos a
 
 Muestra todas las conexiones TCP y UDP, tanto en escucha como activas.  
 🔍 Muy útil para obtener una visión completa de la actividad de red del sistema.
+
+🔍 Opciones:  
+-p → Muestra el PID y nombre del proceso que usa cada socket.  
+-l → Filtra para mostrar solo puertos en escucha (LISTEN).  
+-u → Incluye sockets UDP. 🔸 Muestra servicios como DNS, DHCP, NTP, etc.  
+-n → Evita resolver nombres de dominio y servicios.  
+-t → Incluye sockets TCP.
 
 📸 Captura:
 
