@@ -1,5 +1,5 @@
 🧠 Comandos de Monitorización de Recursos en Linux
-# Memoria, espacio y rendimiento del disco.
+# 💾 Memoria, espacio y rendimiento del disco.
 
 ![Linux Badge](https://img.shields.io/badge/Linux-Terminal-black?logo=linux&logoColor=white)
 ![Bash Badge](https://img.shields.io/badge/Shell-Bash-blue?logo=gnu-bash)
