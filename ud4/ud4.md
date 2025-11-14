@@ -93,3 +93,4 @@ Muestra todas las conexiones TCP y UDP, tanto en escucha como activas.
 📸 Captura:
 
 ![Ver imagen](img/ss-plunt.png)
+
