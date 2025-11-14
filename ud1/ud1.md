@@ -44,7 +44,7 @@ x → Incluye procesos sin terminal asociada.
 ## 👩‍💻 3. `ps -u alumno`
 Muestra solo los procesos que pertenecen al usuario **alumno** 👤.  
 
-🔍 Opciones:
+🔍 Opciones:  
 -u [usuario] → Muestra únicamente los procesos del usuario indicado.
 
 💡 Muy útil cuando hay varios usuarios en el sistema y quieres filtrar los procesos de un usuario específico.
