@@ -1,9 +1,9 @@
 🧠 Comandos de Monitorización de Procesos en Linux
 # 🖥️ Procesos
 
-![Linux Badge](https://img.shields.io/badge/Linux-Terminal-black?logo=linux&logoColor=white)
-![Bash Badge](https://img.shields.io/badge/Shell-Bash-blue?logo=gnu-bash)
-![Monitoring Badge](https://img.shields.io/badge/Category-Monitoring-green)
+![Linux](https://img.shields.io/badge/Linux-Terminal-black?logo=linux)
+![Topic](https://img.shields.io/badge/Tema-Procesos-blue)
+![Tools](https://img.shields.io/badge/Herramientas-ps%2Ftop%2Fhtop-green)
 
 🧭 Introducción
 
