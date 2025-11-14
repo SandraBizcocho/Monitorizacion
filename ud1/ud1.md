@@ -9,10 +9,21 @@
 
 Estos comandos permiten ver y controlar los procesos activos en Linux, ayudando a conocer el uso de CPU, memoria y usuarios que los ejecutan. Son esenciales para monitorizar el sistema.
 
-Comandos:  
-[ps au](#1-psau)  
-[ps aux](#2-ps-aux)  
-[ps -u](#3-ps--u-alumno)  
+# Comandos:  
+[ps au](#1-psau)
+
+[ps aux](#2-ps-aux)
+
+[ps -u](#3-ps-u-alumno)
+
+[top](#4-top)
+
+[top -b -n 3](#5-top-b-n-3-top-info)
+
+[htop](#6-htop)
+
+[ps -eo user](#7-ps-eo-user-pid-comm-cpu-sort-cpu-head-n-6)
+
 ---
 
 # 📋 1. `ps au`
@@ -60,7 +71,7 @@ Muestra solo los procesos que pertenecen al usuario **alumno** 👤.
 
 ---
 
-## ⚡ 4. `top`
+# ⚡ 4. `top`
 Muestra en **tiempo real** los procesos activos, el uso de CPU, memoria, carga del sistema y el tiempo que lleva encendido el equipo.  
 
 📊 Características principales:  
@@ -77,7 +88,7 @@ Muestra estadísticas del sistema en la parte superior (load average, uptime, et
 
 ---
 
-## 🧾 5. `top -b -n 3 > top.info`
+# 🧾 5. `top -b -n 3 > top.info`
 Ejecuta `top` en **modo batch** (sin interfaz interactiva) y guarda **3 iteraciones** en el archivo `top.info`  
 
 🔍 Opciones:  
@@ -93,7 +104,7 @@ Ejecuta `top` en **modo batch** (sin interfaz interactiva) y guarda **3 iteracio
 
 ---
 
-## 🖥️ 6. `htop`
+# 🖥️ 6. `htop`
 Versión mejorada e interactiva de `top`, con una **interfaz gráfica en terminal más visual, colorida y fácil de usar** 🎨.  
 
 ✨ Ventajas sobre top:  
@@ -110,7 +121,7 @@ Agrupa procesos en forma de árbol jerárquico.
 
 ---
 
-## 🔝 7. `ps -eo user,pid,comm,%cpu --sort=-%cpu | head -n 6`
+# 🔝 7. `ps -eo user,pid,comm,%cpu --sort=-%cpu | head -n 6`
 Muestra los **5 procesos que más CPU consumen**, ordenados de mayor a menor 🔥.  
 
 🔍 Opciones:  
