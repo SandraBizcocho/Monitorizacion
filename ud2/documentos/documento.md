@@ -10,3 +10,5 @@
 
 * Explica monitorización de memoria y discos en Linux, uso de iostat y free para diagnóstico.  
 * 🔗 [Enlace](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/performance_tuning_guide/chap-red_hat_enterprise_linux-performance_tuning_guide-cpu)
+
+# 🔗 [Unidad 3. Tráfico de la red](../../ud3/ud3.md)
