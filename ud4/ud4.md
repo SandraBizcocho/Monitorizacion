@@ -15,7 +15,7 @@
 
 🔗 [arp -n](#-2-arp--n)
 
-🔗 [nmap](#3-nmap)
+🔗 [nmap](#-3-nmap)
 
 🔗 [ss -ntnp](#-4-ss-ntnp)
 
