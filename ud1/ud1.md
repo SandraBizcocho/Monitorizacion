@@ -11,11 +11,11 @@ Estos comandos permiten ver y controlar los procesos activos en Linux, ayudando 
 
 Comandos:
 [ps au](##1-psau)
-[ps aux](##2-psaux)
+[ps aux](#2-`psaux`)
 
 ---
 
-## 📋 1. `ps au`
+# 📋 1. `ps au`
 Muestra los **procesos activos** del usuario actual en un formato más detallado (sin procesos de otros usuarios).  
 
 🔍 Opciones:  
@@ -30,7 +30,7 @@ u → Usa un formato “user-oriented”, mostrando columnas como USER, PID, %CP
 
 ---
 
-## 👥 2. `ps aux`
+# 👥 2. `ps aux`
 Lista **todos los procesos del sistema** incluyendo los de otros usuarios y los que no están asociados a una terminal (daemon o servicio).   
 
 🔍 Opciones:  
