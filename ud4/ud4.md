@@ -21,6 +21,8 @@
 
 🔗 [ss -plunt](#-5-ss--plunt)
 
+🔗 [whois](#6-whois)
+
 ---
 
 ## 📋 1. `arp -a`
@@ -115,5 +117,22 @@ Muestra todas las conexiones TCP y UDP, tanto en escucha como activas.
 📸 Captura:
 
 ![Ver imagen](img/ss-plunt.png)
+
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
+
+---
+
+# 🌎 6. `whois`
+Herramienta de red que permite **obtener información sobre un dominio o una dirección IP** (propietario, fecha de registro, servidores DNS, etc.). 🕵️‍♂️
+
+🔍 Uso:
+whois [dominio.com] → Muestra la información de ese dominio.
+whois [IP] → Muestra a quién pertenece esa dirección IP.
+
+💡 Muy útil en ciberseguridad y administración para saber quién está detrás de una web o IP sospechosa.
+
+📸 Captura:
+
+![Ver imagen](img/whois.png)
 
 [⬆️ Volver a la lista de comandos](#lista-de-comandos)
