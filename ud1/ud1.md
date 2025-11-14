@@ -21,7 +21,7 @@ Estos comandos permiten ver y controlar los procesos activos en Linux, ayudando 
 
 🔗 [top -b -n 3](#-5-top--b--n-3--topinfo)
 
-🔗 [htop](#6-htop)
+🔗 [htop](%EF%B8%8F-6-htop)
 
 🔗 [ps -eo user](#7-ps--eo-userpidcommcpu--sort-cpu--head--n-6)
 
