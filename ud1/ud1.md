@@ -40,7 +40,7 @@ u → Usa un formato “user-oriented”, mostrando columnas como USER, PID, %CP
 
 ![Ver imagen](img/psau.png)
 
-[⬆️ Volver a la lista](#lista-de-comandos)
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ---
 
@@ -58,7 +58,7 @@ x → Incluye procesos sin terminal asociada.
 
 ![Ver imagen](img/psaux.png)
 
-[⬆️ Volver a la lista](#comandos)
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ---
 
@@ -74,7 +74,8 @@ Muestra solo los procesos que pertenecen al usuario **alumno** 👤.
 
 ![Ver imagen](img/ps-u.png)
 
-[⬆️ Volver a la lista](#comandos)
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
+
 ---
 
 ## ⚡ 4. `top`
@@ -92,7 +93,7 @@ Muestra estadísticas del sistema en la parte superior (load average, uptime, et
 
 ![Ver imagen](img/top.png)
 
-[⬆️ Volver a la lista](#comandos)
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ---
 
@@ -110,7 +111,7 @@ Ejecuta `top` en **modo batch** (sin interfaz interactiva) y guarda **3 iteracio
 
 ![Ver imagen](img/top-b.png)
 
-[⬆️ Volver a la lista](#comandos)
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ---
 
@@ -129,7 +130,7 @@ Agrupa procesos en forma de árbol jerárquico.
 
 ![Ver imagen](img/htop.png)
 
-[⬆️ Volver a la lista](#comandos)
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ---
 
@@ -148,7 +149,7 @@ Muestra los **5 procesos que más CPU consumen**, ordenados de mayor a menor �
 
 ![Ver imagen](img/ps-eo.png)
 
-[⬆️ Volver a la lista](#comandos)
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ## 🔗 [Documentación](../ud1/documentos/documento.md)
 ## 🔗 [Unidad 2. Memoria, espacio y rendimiento del disco](../ud2/ud2.md)
