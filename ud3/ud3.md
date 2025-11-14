@@ -9,6 +9,18 @@
 
 **Estos comandos permiten analizar y monitorizar el tráfico de red en tiempo real, ver la actividad de las interfaces, analizar paquetes, detectar cuellos de botella y diagnosticar problemas de conectividad. Son herramientas esenciales para diagnosticar problemas de conectividad, comprobar velocidades de transferencia y vigilar conexiones activas en Linux 🐧**
 
+## Lista de comandos:
+
+🔗 [bmon](#-1-bmon)
+
+🔗 [iptraf](#-2-iptraf)
+
+🔗 [tcpdump](#3-tcpdump)
+
+🔗 [tcptrack](#-4-tcptrack)
+
+---
+
 # 📋 1. `bmon`
 
 Muestra el uso de **ancho de banda** en tiempo real por cada interfaz de red.  
@@ -24,6 +36,8 @@ Ideal para detectar picos de tráfico, comprobar si una interfaz está transmiti
 📸 Captura:
 
 ![Ver imagen](img/bmon1.png)
+
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ---
 
@@ -53,6 +67,8 @@ Perfecto para analizar qué equipos o servicios generan más tráfico en tu red 
 
 ![Ver imagen](img/iptraf1.png)
 
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
+
 ---
 
 # 📋 3. `tcpdump`
@@ -65,6 +81,8 @@ Se usa con permisos de superusuario y admite filtros potentes (por IP, puerto, p
 
 ![Ver imagen](img/tcpdump.png)
 
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
+
 ---
 
 # 📋 4. `tcptrack`
@@ -76,6 +94,7 @@ Muestra las **conexiones TCP activas** en tiempo real junto con su velocidad de 
 
 ![Ver imagen](img/tcptrack1.png)
 
+[⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
 ## 🔗 [Documentación](documentos/documento.md)
 ## 🔗 [Unidad 4. Puertos](../ud4/ud4.md)
