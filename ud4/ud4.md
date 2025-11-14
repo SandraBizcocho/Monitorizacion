@@ -11,7 +11,7 @@
 
 ## Lista de comandos:
 
-🔗 [arp -a](#-1-arp-a)
+🔗 [arp -a](#-1-arp--a)
 
 🔗 [arp -n](#-2-arp-n)
 
