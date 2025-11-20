@@ -95,5 +95,7 @@ Muestra las **conexiones TCP activas** en tiempo real junto con su velocidad de 
 
 [⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
+---
+
 ## 🔗 [Documentación](documentos/documento.md)
 ## 🔗 [Unidad 4. Puertos](../ud4/ud4.md)
