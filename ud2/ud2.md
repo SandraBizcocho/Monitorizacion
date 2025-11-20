@@ -112,5 +112,7 @@ Permite ver estadísticas de:
 
 [⬆️ Volver a la lista de comandos](#lista-de-comandos)
 
+---
+
 ## 🔗 [Documentación](documentos/documento.md)
 ## 🔗 [Unidad 3. Tráfico de la red](../ud3/ud3.md)
