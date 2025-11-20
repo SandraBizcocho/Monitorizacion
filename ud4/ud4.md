@@ -137,3 +137,7 @@ whois [IP] → Muestra a quién pertenece esa dirección IP.
 ![Ver imagen](img/whois.png)
 
 [⬆️ Volver a la lista de comandos](#lista-de-comandos)
+
+---
+
+## 🔗 [Volver a README](../readme.md) 
