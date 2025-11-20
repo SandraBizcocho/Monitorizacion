@@ -140,4 +140,4 @@ whois [IP] → Muestra a quién pertenece esa dirección IP.
 
 ---
 
-## 🔗 [Volver a README](../../readme.md) 
+## 🔗 [Ir a README](../README.md) 
